@@ -2,7 +2,6 @@
     --body-font: Arial, Helvetica, sans-serif;
     --heading-font: "Times New Roman", "Georgia, serif";
     --primary-color: rgba(0, 113, 206, 0.884);
-    --secondary-color: rgb(56, 143, 102);
     --background-color: #eee;
 }
 
@@ -84,6 +83,5 @@ h1 {
     float: right;
     width: 125px;
     border-radius: 10%;
-    box-shadow: inset;
     margin: 16px;
 }
