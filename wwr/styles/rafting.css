@@ -3,6 +3,8 @@
     --heading-font: "Times New Roman", "Georgia, serif";
     --primary-color: rgba(0, 113, 206, 0.884);
     --background-color: #eee;
+    --secondary-color: rgb(12, 18, 20);
+    --background-opacity: #eeeeeed2;
 }
 
 * {
@@ -290,4 +292,65 @@ button:hover {
 
 figcaption {
     text-align: center;
+}
+
+.home,
+.services {
+    position: relative;
+}
+
+.home img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.home h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--background-opacity);
+    font-family: fantasy;
+    color: var(--secondary-color);
+
+}
+
+.services {
+    position: absolute;
+    max-width: 840px;
+    min-width: 750px;
+    top: 50%;
+    padding: 16px;
+    text-align: center;
+    font-family: fantasy;
+    color: var(--secondary-color);
+    border: none;
+    background-color: var(--background-opacity);
+}
+
+.services h2 {
+    color: var(--secondary-color);
+}
+
+.home article {
+    position: absolute;
+    bottom: 20%;
+    width: 96%;
+    background-color: var(--background-color);
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.home article img {
+    float: right;
+    width: 125px;
+    border-radius: 10%;
+    margin: 16px;
+}
+
+.boton article {
+    width: 300px;
+    font-size: x-large;
 }
